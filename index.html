@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz Tech - Soluções Digitais</title>
+    <meta name="description"
+        content="Matriz Tech: Soluções digitais inteligentes, desenvolvimento web, Power BI e branding. Transformando negócios com tecnologia e estratégia.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <!-- Placeholder for Logo Icon -->
+                <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#bd00ff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00ccff;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M50 5 L95 35 L78 85 H22 L5 35 Z" stroke="url(#logoGradient)" stroke-width="12" fill="none"
+                        stroke-linejoin="round" />
+                </svg>
+                <span class="logo-text">Matriz<span class="highlight">Tech</span></span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                </ul>
+
+                <div class="mobile-menu-icon" id="mobile-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+        </label>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="animate-up">Transformando Negócios com <span class="gradient-text">Inteligência Digital</span>
+            </h1>
+            <p class="animate-up delay-1">Unimos tecnologia de ponta e visão estratégica para impulsionar o crescimento
+                e a autoridade da sua empresa.</p>
+            <div class="hero-btns animate-up delay-2">
+                <a href="#servicos" class="btn btn-primary">Nossas Soluções <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="hero-bg-glow"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Quem Somos</span>
+                <h2>Tecnologia com Propósito</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Fundada em <strong>julho de 2025</strong>, a <strong>Matriz Tech</strong> nasceu da união de dois
+                        pilares fundamentais do mercado moderno: Tecnologia de Ponta e Gestão Estratégica.</p>
+                    <p>Percebemos que muitas empresas possuíam ferramentas, mas não tinham inteligência; tinham
+                        processos, mas faltava presença. Com a expertise técnica de um lado e a visão de negócios do
+                        outro, criamos uma consultoria focada em entregar soluções que não apenas funcionam, mas que
+                        geram lucro e autoridade.</p>
+
+                    <div class="mission-vision">
+                        <div class="mv-item">
+                            <h3><i class="fas fa-bullseye"></i> Missão e Visão</h3>
+                            <p>Prover soluções digitais inteligentes que simplificam a complexidade do mundo dos
+                                negócios, unindo tecnologia de ponta e visão estratégica para impulsionar o crescimento
+                                e a autoridade de nossos parceiros.</p>
+                        </div>
+                    </div>
+
+                    <blockquote class="quote">
+                        "Não entregamos apenas código ou gráficos; entregamos ferramentas que permitem ao empresário
+                        dormir tranquilo, sabendo que seus processos estão otimizados e sua imagem profissional está
+                        impecável."
+                    </blockquote>
+                </div>
+                <!-- Visual Element/Stats could go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="section bg-darker">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">O Que Fazemos</span>
+                <h2>Soluções Completas para o Seu Negócio</h2>
+                <p>Nossa atuação é dividida em frentes que cobrem desde a base operacional até a vitrine da marca.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Inteligência de Dados (Power BI)</h3>
+                    <p>Construímos painéis dinâmicos que transformam números brutos em clareza estratégica. Para que
+                        você pare de "achar" e comece a decidir com base em fatos.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites modernos, rápidos e otimizados para conversão. Sua casa digital construída com o que há de
+                        mais atual em performance.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automação e Chatbots</h3>
+                    <p>Implementamos sistemas de atendimento inteligente para escalar seu suporte e vendas, garantindo
+                        que nenhum cliente fique sem resposta.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Imagem Profissional e Branding</h3>
+                    <p>Elevamos o posicionamento da sua companhia no mercado, refinando a comunicação visual e a
+                        percepção de valor perante o público.</p>
+                    <p class="service-note">+ Criação de email profissional, logos e identidade visual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contato" class="section contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para elevar o nível da sua empresa?</h2>
+                <p>Entre em contato conosco e descubra como podemos transformar o seu negócio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <div class="logo">Matriz<span class="highlight">Tech</span></div>
+                <p>Soluções digitais inteligentes para o mundo moderno.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><i class="fab fa-whatsapp"></i> (11) 96738-4520</p>
+                <p class="email-text"><i class="fas fa-envelope"></i> techmatrizoficial@gmail.com</p>
+                <p class="email-text"><i class="fas fa-envelope"></i> tiagomatriztech@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Matriz Tech. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511967384520" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
